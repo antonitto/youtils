@@ -6,7 +6,7 @@ def readme():
         return f.read()
 
 
-setup(name='foo-test',
+setup(name='youtils',
       version='0.0.1',
       description='Utils for You',
       long_description=readme(),
@@ -18,7 +18,7 @@ setup(name='foo-test',
       ],
       keywords='funniest joke comedy flying circus',
       url='http://github.com/antonitto/youtils',
-      author='Anton Markov',
+      author='amarkov',
       author_email='markov.anton.a@gmail.com',
       license='MIT',
       packages=['youtils'],
